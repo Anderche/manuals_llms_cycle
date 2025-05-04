@@ -13,11 +13,11 @@ Most importantly, this system designed to be extensible to any business domain -
 
 ## Business Use-Cases
 
-1. This app can serve as an internal knowledge base for HR policies, product documentation, and technical manuals. 
+1. This app can serve as an **internal knowledge base for HR policies, product documentation, and technical manuals**.
 
-2. It is ideal for customer support teams needing quick access to product specs, legal departments searching through contracts, and training departments creating interactive learning materials. 
+2. It is ideal for **customer support teams** needing quick access to product specs, legal departments searching through contracts, and **training departments** creating interactive learning materials. 
 
-3. The system can also help with compliance documentation and standard operating procedures across industries.
+3. The system can also help with **compliance documentation** and **standard operating procedures** across industries.
 
 --- 
 
