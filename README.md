@@ -1,4 +1,4 @@
-# Bicycle Documentation System
+# RAG LLM App for Contextual Document Retrieval
 
 
 ## Description
