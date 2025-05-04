@@ -23,7 +23,8 @@ Most importantly, this system designed to be extensible to any business domain -
 
 ## Files
 
-- `parse_to_vectorstore.py`: Processes PDF documents into a vector store using LlamaParse and BAAI/bge-small-en-v1.5 embeddings. Splits content hierarchically for better context retention.
+- `parse_to_vectorstore.py`: Processes PDF documents into a vector store using LlamaParse and BAAI/bge-small-en-v1.5 embeddings. Splits content hierarchically for better context retention.  
+  **Note:** The script will automatically create the `./storage` directory (or the directory specified by `--index-dir`) if it does not already exist, so you do not need to create it manually.
 
 - `query_vectorstore.py`: Queries the vector store using Qwen/Qwen1.5-0.5B-Chat for natural language responses. Uses local embeddings for efficient similarity search. The script uses a local embedding model (BAAI/bge-small-en-v1.5) to process text and a vector store (stored in the specified directory) to retrieve relevant information. Once the model downloads complete, it will use this setup to answer your question about Bianchi's carbon frames.
 
