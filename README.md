@@ -1,7 +1,7 @@
 # Bicycle Documentation System
 
 
-## DESCRIPTION
+## Description
 
 This system uses LlamaIndex to create a searchable knowledge base from bicycle documentation. This project is a document query system built with Python, leveraging LlamaIndex and local AI models for privacy-focused document processing. The tech stack includes **_LlamaParse_** for **PDF parsing**, **_BAAI/bge-small-en-v1.5_** for **embeddings**, and **_Zephyr-7B_** that serves as the **large language model (LLM) for natural language processing querying**. 
 
