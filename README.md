@@ -36,17 +36,33 @@ Any .pdf document (containing a mix of text and tabular information) can serve a
 
 ## Setup
 
-1. Install dependencies:
+1. Create and activate a virtual environment (choose one method):
+
+   Using conda:
+   ```bash
+   conda create -n bicycle-docs python=3.9
+   conda activate bicycle-docs
+   ```
+
+   Or using Python's venv:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Unix/macOS
+   # or
+   .\venv\Scripts\activate  # On Windows
+   ```
+
+2. Install dependencies:
 ```bash
-pip install llama-index llama-parse python-dotenv
+pip install -r requirements.txt
 ```
 
-2. Process PDFs:
+3. Process PDFs:
 ```bash
 python parse_to_vectorstore.py --pdf your_document.pdf
 ```
 
-3. Query the knowledge base:
+4. Query the knowledge base:
 ```bash
 python query_vectorstore.py --question "Your question here"
 ```
