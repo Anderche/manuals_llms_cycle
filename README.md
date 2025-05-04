@@ -29,9 +29,10 @@ Most importantly, this system designed to be extensible to any business domain -
 
 ## Reference
 
-The .pdf for Bianchi's 2022 bicycles can be found here:
+Any .pdf document (containing a mix of text and tabular information) can serve as input for this system's internal _knowledge-base_. For this application, a partial reference .pdf (preserving only pages containing cycle specifications, not graphics) was utilized as the _knowledge-base_. The reference .pdf (Bianchi's 2022 cycle catalog) can be found here:
 
     - https://www.bianchi.com/wp-content/uploads/2022/02/202202_BianchiTechnicalBook-1.pdf
+
 
 ## Setup
 
