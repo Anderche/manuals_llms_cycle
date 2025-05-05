@@ -2,6 +2,7 @@
 import argparse
 import torch
 import logging
+import asyncio
 from llama_index.core import StorageContext, load_index_from_storage, Settings
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from typing import Tuple, Optional, List
@@ -17,6 +18,12 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+
+# Initialize PyTorch with proper event loop handling
+try:
+    asyncio.get_event_loop()
+except RuntimeError:
+    asyncio.set_event_loop(asyncio.new_event_loop())
 
 
 def initialize_embedding_model() -> HuggingFaceEmbedding:

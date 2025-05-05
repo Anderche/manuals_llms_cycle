@@ -2,6 +2,7 @@ accelerate==1.6.0
 aiohappyeyeballs==2.6.1
 aiohttp==3.11.18
 aiosignal==1.3.2
+altair==5.5.0
 annotated-types==0.7.0
 anyio==4.9.0
 appdirs==1.4.4
@@ -10,9 +11,11 @@ async-timeout==5.0.1
 attrs==25.3.0
 banks==2.1.2
 beautifulsoup4==4.12.3
+blinker==1.9.0
 boto3==1.26.165
 botocore==1.29.165
 bs4==0.0.2
+cachetools==5.5.2
 certifi==2024.8.30
 charset-normalizer==3.4.0
 click==8.1.8
@@ -42,6 +45,8 @@ fonttools==4.55.0
 frozendict==2.4.6
 frozenlist==1.6.0
 fsspec==2025.3.2
+gitdb==4.0.12
+GitPython==3.1.44
 greenlet==3.2.1
 griffe==1.7.3
 h11==0.16.0
@@ -57,6 +62,8 @@ Jinja2==3.1.6
 jiter==0.9.0
 jmespath==1.0.1
 joblib==1.5.0
+jsonschema==4.23.0
+jsonschema-specifications==2025.4.1
 kiwisolver==1.4.7
 llama-cloud==0.1.19
 llama-cloud-services==0.6.21
@@ -76,6 +83,7 @@ mpmath==1.3.0
 multidict==6.4.3
 multitasking==0.0.11
 mypy_extensions==1.1.0
+narwhals==1.37.1
 nest-asyncio==1.6.0
 networkx==3.2.1
 nltk==3.9.1
@@ -90,10 +98,13 @@ pipenv==2022.6.7
 platformdirs==4.3.7
 plotly==5.24.1
 propcache==0.3.1
+protobuf==6.30.2
 psutil==7.0.0
 psycopg2-binary==2.9.10
+pyarrow==20.0.0
 pydantic==2.11.4
 pydantic_core==2.33.2
+pydeck==0.9.1
 pyee==11.1.1
 pymongo==4.10.1
 pyparsing==3.2.0
@@ -105,9 +116,11 @@ python-decouple==3.8
 python-dotenv==1.1.0
 pytz==2024.2
 PyYAML==6.0.2
+referencing==0.36.2
 regex==2024.11.6
 requests==2.32.3
 requests-html==0.10.0
+rpds-py==0.24.0
 s3transfer==0.6.2
 safetensors==0.5.3
 scikit-learn==1.6.1
@@ -115,10 +128,12 @@ scipy==1.13.1
 sentence-transformers==4.1.0
 sgmllib3k==1.0.0
 six==1.16.0
+smmap==5.0.2
 sniffio==1.3.1
 soupsieve==2.6
 SQLAlchemy==2.0.40
 sqlparse==0.2.4
+streamlit==1.45.0
 striprtf==0.0.26
 sympy==1.14.0
 tabulate==0.9.0
@@ -126,7 +141,9 @@ tenacity==9.0.0
 threadpoolctl==3.6.0
 tiktoken==0.9.0
 tokenizers==0.21.1
+toml==0.10.2
 torch==2.7.0
+tornado==6.4.2
 tqdm==4.67.1
 transformers==4.51.3
 typing-inspect==0.9.0
@@ -137,6 +154,7 @@ urllib3==1.26.20
 virtualenv==20.29.1
 virtualenv-clone==0.5.7
 w3lib==2.2.1
+watchdog==6.0.0
 webencodings==0.5.1
 websockets==10.4
 wrapt==1.17.2
