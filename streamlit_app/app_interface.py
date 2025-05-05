@@ -2,6 +2,7 @@ import streamlit as st
 import sys
 import asyncio
 from pathlib import Path
+import nest_asyncio
 
 # Initialize event loop for Streamlit
 try:
@@ -9,6 +10,9 @@ try:
 except RuntimeError:
     loop = asyncio.new_event_loop()
     asyncio.set_event_loop(loop)
+
+# Apply nest_asyncio to allow nested event loops
+nest_asyncio.apply()
 
 # Add the project root directory to Python path
 project_root = str(Path(__file__).parent.parent)
